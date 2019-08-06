@@ -4,7 +4,7 @@ Check the Probe Port configuration for Always On Listener when working with Azur
 Use the below PowerShell:
 
 Clear-Host\
-Get-ClusterResource \`\
-| Where-Object {$_.ResourceType.Name -like "IP Address"} \`\
-| Get-ClusterParameter \`\
-| Where-Object {($_.Name -like "Network") -or ($_.Name -like "Address") -or ($_.Name -like "ProbePort") -or ($_.Name -like "SubnetMask")}\
+Get-ClusterResource `\
+| Where-Object {$_.ResourceType.Name -like "IP Address"} `\
+| Get-ClusterParameter `\
+| Where-Object {($_.Name -like "Network") -or ($_.Name -like "Address") -or ($_.Name -like "ProbePort") -or ($_.Name -like "SubnetMask")}

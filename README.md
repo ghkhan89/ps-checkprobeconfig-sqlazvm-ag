@@ -3,7 +3,7 @@ Check the Probe Port configuration for Always On Listener when working with Azur
 
 Use the below PowerShell:
 
-#-- Validation of Probe Port configuration written by Ghufran Khan:
+#Validation of Probe Port configuration written by Ghufran Khan:
 #################################################
 Clear-Host
 Get-ClusterResource `

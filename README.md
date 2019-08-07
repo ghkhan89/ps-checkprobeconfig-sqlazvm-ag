@@ -1,6 +1,8 @@
 # Check Probe Config - SQL Server on Azure VM
 Check the Probe Port configuration for Always On Listener when working with Azure Load Balancer on Azure VM
 
+Run the below script from one of the node elevated PowerShell 
+
 #-- Validation of Probe Port configuration written by Ghufran Khan: \
 ################################################# \
 Clear-Host \

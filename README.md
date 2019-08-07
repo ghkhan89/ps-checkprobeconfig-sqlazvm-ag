@@ -8,3 +8,7 @@ Get-ClusterResource \` \
 | Where-Object {$_.ResourceType.Name -like "IP Address"} \` \
 | Get-ClusterParameter \` \
 | Where-Object {($_.Name -like "Network") -or ($_.Name -like "Address") -or ($_.Name -like "ProbePort") -or ($_.Name -like "SubnetMask")}
+
+Find me on GitHub: https://github.com/ghkhan89?tab=repositories
+
+Find me on Facebook: https://www.facebook.com/GhufranKhan89 
